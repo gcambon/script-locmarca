@@ -1,0 +1,31 @@
+name: psf2026_pyenv
+channels:
+ - conda-forge
+dependencies:
+ - python=3.12 # from prepro
+ - cartopy # from prepro, xcroco
+ - cdsapi # from prepro
+ - copernicusmarine
+ - regionmask
+ - cf-xarray  # from xcroco
+ - cftime # from prepro
+ - ipykernel # from prepro
+ - ipython # from prepro
+ - jupyter # from prepro
+ - jupyterlab # from prepro, xcroco
+ - matplotlib # from prepro, croco_pyvisu
+ - netcdf-fortran # from prepro
+ - h5py # from prepro
+ - h5netcdf # from prepro
+ - netcdf4 # from prepro, xcroco, croco_pyvisu
+ - numpy # from prepro
+ - pandas # from prepro
+ - python-dateutil # from prepro
+ - scipy # from prepro, croco_pyvisu
+ - xarray # from prepro, xcroco, croco_pyvisu
+ - xgcm  # from xcroco
+ - ncview   # visualization netcdf
+ - cdo      # climate data operators
+ - nco      # netcdf operators
+ - cmocean  # add test mac
+ 
