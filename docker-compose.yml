@@ -1,0 +1,8 @@
+services:
+  ocean:
+    image: gildasc/cours-ocean:1.0
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebooks:/home/jovyan/work/notebooks
+      - ./data:/home/jovyan/work/data
