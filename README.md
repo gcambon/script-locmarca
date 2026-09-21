@@ -38,7 +38,7 @@ You need 2 ingredients :
 ![alt text](images/images_connectkabre/06-install.png)
 
 
-# Download the courses and hands-on notebooks using GIT
+## Download the courses and hands-on notebooks using GIT
 
 Open a terminal and clone the github repository for the workshop : https://github.com/gcambon/script-locmarca 
 
