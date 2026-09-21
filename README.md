@@ -1,10 +1,9 @@
 # Material for the LOCMARCA workshop
 
-This repo contains the material that will used during the next LOCMARCA workshop, from 16 to 20 Novemeber in Costa Rica. 
+This repo contains the material that will used during the next LOCMARCA workshop, from 16 to 20 November 2026 in Costa Rica. 
 Click on the link to access the notebook corresponding to the session :
 
 ## Program : [here](https://docs.google.com/document/d/1cB4yNvkBNWdxjOYhjzKJLcO5nfagvkhRv2tHxbG7s0o/edit?tab=t.0)
-
 
 ## Connexion to JupyterLab
 
