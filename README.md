@@ -14,29 +14,29 @@ You need 2 ingredients :
 
 ### Step by step 
 1. step 1 connect to the jupytherlab
-![alt text](images_connectkabre/01-connect_ondemandkabre.png)
+![alt text](images/images_connectkabre/01-connect_ondemandkabre.png)
 
 2. step 2 : launch a Jupyther Notebook sesssion
-![alt text](images_connectkabre/02-launch_jupterlab.png)
+![alt text](images/images_connectkabre/02-launch_jupterlab.png)
 
 3. step 3 : launch a Jupyther Notebook sesssion
-![alt text](images_connectkabre/03-connectjupyter.png)
+![alt text](images/images_connectkabre/03-connectjupyter.png)
 
 4. step 4 : launch modern jupyterhub
-![alt text](images_connectkabre/04-Capture%20d’écran%202026-09-18%20à%2016.47.11.png)
+![alt text](images/images_connectkabre/04-install.png)
 
-5. step 5 : various type of sessions
-![alt text](images_connectkabre/05-Capture%20d’écran%202026-09-18%20à%2016.50.02.png)
+1. step 5 : various type of sessions
+![alt text](images/images_connectkabre/05-install.png)
 
-6. step 6 : lauch a  terminal session
-![alt text](images_connectkabre/06-Capture%20d’écran%202026-09-18%20à%2016.50.15.png)
+1. step 6 : lauch a  terminal session
+![alt text](images/images_connectkabre/06-install.png)
 
 
 # Download the courses and hands-on notebooks using GIT
 
-Open a terminal
+Open a terminal and clone the github repository for the workshop : https://github.com/gcambon/script-locmarca 
 
 ```
-mkdir work
 git clone  https://github.com/gcambon/script-locmarca.git
 ```
+![alt text](images/images_connectkabre/08-install.png)
