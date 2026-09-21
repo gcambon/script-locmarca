@@ -13,22 +13,28 @@ You need 2 ingredients :
 - your login and password : as *`taller-locmarcaXXX`* and *`yourpassword`*
 
 ### Step by step 
-1. step 1 connect to the onDemand JupyterLab of Kabre
+- step 1 connect to the onDemand JupyterLab of Kabre
+
 ![alt text](images/images_connectkabre/01-connect_ondemandkabre.png)
 
-2. step 2 : launch a Jupyter Notebook
+- step 2 : launch a Jupyter Notebook
+
 ![alt text](images/images_connectkabre/02-launch_jupterlab.png)
 
-3. step 3 : launch a Jupyther Notebook 
+- step 3 : launch a Jupyther Notebook 
+
 ![alt text](images/images_connectkabre/03-connectjupyter.png)
 
-4. step 4 : launch a "modern" JupyterLab (not Jupyther Notebook)
+- step 4 : launch a "modern" JupyterLab (not Jupyther Notebook)
+
 ![alt text](images/images_connectkabre/04-install.png)
 
-1. step 5 : various type of sessions
+- step 5 : various type of sessions
+
 ![alt text](images/images_connectkabre/05-install.png)
 
-1. step 6 : lauch a  terminal session
+- step 6 : lauch a  terminal session
+
 ![alt text](images/images_connectkabre/06-install.png)
 
 
