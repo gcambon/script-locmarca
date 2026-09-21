@@ -12,7 +12,7 @@ You need 2 ingredients :
 - the connexion to JupyterLab of Kabre HPC cluster : [ondemand.kabre.cenat.ac.cr](https://ondemand.kabre.cenat.ac.cr)
 - your login and password : as *`taller-locmarcaXXX`* and *`yourpassword`*
 
-### Step by step 
+### Step-by-step 
 - step 1 connect to the onDemand JupyterLab of Kabre
 
 ![alt text](images/images_connectkabre/01-connect_ondemandkabre.png)
