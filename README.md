@@ -6,23 +6,23 @@ Click on the link to access the notebook corresponding to the session :
 ## Program : [here](https://docs.google.com/document/d/1cB4yNvkBNWdxjOYhjzKJLcO5nfagvkhRv2tHxbG7s0o/edit?tab=t.0)
 
 
-## Connexion to jupyterhub
+## Connexion to JupyterLab
 
 You need 2 ingredients :
-- the connexion to jupyterhub of Kabre HPC cluster : [ondemand.kabre.cenat.ac.cr](https://ondemand.kabre.cenat.ac.cr)
+- the connexion to JupyterLab of Kabre HPC cluster : [ondemand.kabre.cenat.ac.cr](https://ondemand.kabre.cenat.ac.cr)
 - your login and password : as *`taller-locmarcaXXX`* and *`yourpassword`*
 
 ### Step by step 
-1. step 1 connect to the jupytherlab
+1. step 1 connect to the onDemand JupyterLab of Kabre
 ![alt text](images/images_connectkabre/01-connect_ondemandkabre.png)
 
-2. step 2 : launch a Jupyther Notebook sesssion
+2. step 2 : launch a Jupyter Notebook
 ![alt text](images/images_connectkabre/02-launch_jupterlab.png)
 
-3. step 3 : launch a Jupyther Notebook sesssion
+3. step 3 : launch a Jupyther Notebook 
 ![alt text](images/images_connectkabre/03-connectjupyter.png)
 
-4. step 4 : launch modern jupyterhub
+4. step 4 : launch a "modern" JupyterLab (not Jupyther Notebook)
 ![alt text](images/images_connectkabre/04-install.png)
 
 1. step 5 : various type of sessions
