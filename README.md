@@ -62,8 +62,8 @@ To setup your bash environment, with some useful aliases, prompt, modules loadin
 
 ```bash
 cd $HOME
-cp /data/gcambon/COMMONDATA/Setup_training/p.bash_profile .bash_profile
-cp /data/gcambon/COMMONDATA/Setup_training/p.bashrc .bashrc
+cp /data/gcambon/Setup_training/p.bash_profile .bash_profile
+cp /data/gcambon/Setup_training/p.bashrc .bashrc
 ```
 
 You can check the configuration with:
