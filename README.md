@@ -63,8 +63,8 @@ To setup your bash environment, with some useful aliases, prompt, modules loadin
 
 ```bash
 cd $HOME
-cp script-locmarca/Setup_training/p.bash_profile .bash_profile
-cp script-locmarca/Setup_training/gcambon/Setup_training/p.bashrc .bashrc
+cp script-locmarca/Setup_training/p.bash_profile ~/.bash_profile
+cp script-locmarca/Setup_training/gcambon/Setup_training/p.bashrc ~/.bashrc
 ```
 
 You can check the configuration with:
