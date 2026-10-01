@@ -1,8 +1,9 @@
 # Material for the LOCMARCA workshop
 
 This repo contains the material that will used during the next LOCMARCA workshop, from 16 to 20 November 2026 in Costa Rica.
-## 1. Program : [here](https://docs.google.com/document/d/1cB4yNvkBNWdxjOYhjzKJLcO5nfagvkhRv2tHxbG7s0o/edit?tab=t.0)
+<!-- ## 1. Program : [here](https://docs.google.com/document/d/1cB4yNvkBNWdxjOYhjzKJLcO5nfagvkhRv2tHxbG7s0o/edit?tab=t.0) -->
 
+## 1. [Program](Programme_LOCMARCA26_update.md)
 ## 2. Connexion to JupyterLab
 
 > [!NOTE]
@@ -62,8 +63,8 @@ To setup your bash environment, with some useful aliases, prompt, modules loadin
 
 ```bash
 cd $HOME
-cp /data/gcambon/Setup_training/p.bash_profile .bash_profile
-cp /data/gcambon/Setup_training/p.bashrc .bashrc
+cp script-locmarca/Setup_training/p.bash_profile .bash_profile
+cp script-locmarca/Setup_training/gcambon/Setup_training/p.bashrc .bashrc
 ```
 
 You can check the configuration with:
