@@ -1,19 +1,22 @@
 # Programme préliminaire LOCMARCA 26
 
+#### [https\://github.com/gcambon/script-locmarca](https://github.com/gcambon/script-locmarca) 
+
 ---
 
 **Jour 1 Lundi**  
 Matin
 
-* Accueil \- présentation des participants  
+* Accueil \- présentation des participants (1 slide / person; pdf à envoyer avant)  
 * Présentation du programme cours-tp  
-* Infrastructure de travail \- kabre et jupyterhub ondemand
+* Infrastructure de travail \- kabre et jupyterhub ondemand (=\> gérer ouverture comptes Kabré)
 
 
 Après-midi  
-**TP 0  ( avec README du github) : installation**
+**TP 0  (avec README du github) : installation**
 
 * connexion Kabre \+ jupyterhub  
+* installation de MobaXterm pour les utilisateurs sous Windows \+ connexion (ssh \-X …)  
 * environnement python et module
 
 ---
@@ -21,49 +24,50 @@ Après-midi
 **Jour 2 \- Mardi**   
 **Cours 1** : Présentations des produits d’observation : In situ versus satellites
 
-* ocean / atmo / bgc c’est quoi la bgc  
+* ocean / atmo / bgc   
 * 2D versus 3D  
 * couverture spatio-temporelle, limites et avantages  
 * expliquer ce qu’est les données climato versus interannuelles variabilité  
 * données grillées : ça implique quoi ? ;  interpolation, leurs limites
 
-**Cours 2** : C’est quoi un fichier netcdf et son anatomie
+**Cours 2** : C’est quoi un fichier netcdf et son “anatomie”
 
 **TP 1** : sur les obs : avec des données déjà dispo sur kabre 
 
 * Carte 2D-h, section verticale etc…, séries temporelles  
 * Introduction outils NCO / CDO vs. python
 
-**TP 2**: Comment on récupère des données  : copernicus/ecmwf
+**TP 2** : Comment on récupère des données  : copernicus/ecmwf
 
-* exercice 0 :compte copernicus /ecmwf  
-* exercice 1 :    
+* exo 0 :compte copernicus /ecmwf  
+* exo 1 :    
   * récupérer données par SST L4 \+ temperature 3D sur zone costa rica  
   * plot sur une zone de leur choix.  
-* exercice 2 : meme chose pour réanalyse atmo (vent), reanalyse ocean (temp, salt et courant) 
+* exo 2 : même chose pour réanalyse atmo (vent), réanalyse ocean (temp, salt et courant) 
 
 ---
 
 **Jour 3 \- Mercredi**  
-**Cours 3 :** on a vu les données d’observation hier, au joud’hui modèle
+**Cours 3 :** on a vu les données d’observation hier, aujoud’hui modèle
 
 * c’est quoi un modèle numérique d'océan / atmo / climat  
 * *Principe & grandes idées à avoir :*   
 * *Résolution spatiale / intégration / processus / type de grille*  
 * *A quoi ça sert (étude de processus)*  
-* *global vs régional, scénarios, limites*
+* *global vs régional, scénarios, limites*  
+* *Présentation succincte modèles climats : lien possible https\://esgf-node.ipsl.upmc.fr/projects/esgf-ipsl/*
 
-**TP 3** : visu et manipulation sortie de **modèle ocean**
+**TP 3** : visu et manipulation sortie de **modèle océan**
 
-*  lecture/ouverture/carte avec données dispo sur cluster avec  CROCO et  NEMO GLOBAL 1° avec BGC  
-* donnees 2D SST / SLA / Vents /  Courants de surface.   
-* donnees 3D : temperature, salinité, Courant  
+* lecture/ouverture/carte avec données dispo sur cluster avec CROCO et NEMO GLOBAL 1° avec BGC  
+* données 2D SST / SLA / Vents /  Courants de surface.   
+* données 3D : température, salinité, Courant  
   * carte et section verticale
 
 ---
 
 **Jour 4 \- Jeudi \-  Objectif mini-projet :** mini-projet simple sur une zone choisie de comparaison modèle-données  
-**TP 4**
+**TP 4 :**
 
 * Définir région d'intérêt  
 * Récupération données in-situ / sat / réanalyse océan et atmo / sorties modèles océan   
