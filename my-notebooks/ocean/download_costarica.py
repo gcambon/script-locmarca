@@ -21,7 +21,10 @@ from pathlib import Path
 import copernicusmarine
 
 # Study box: Pacific coast of Costa Rica
-LON_MIN, LON_MAX = -92.0, -80.0
+# LON_MIN, LON_MAX = -92.0, -80.0
+# LAT_MIN, LAT_MAX = 4.0, 14.0
+# ===> with panama
+LON_MIN, LON_MAX = -92.0, -77.0
 LAT_MIN, LAT_MAX = 4.0, 14.0
 
 SST_DATASET = "METOFFICE-GLO-SST-L4-REP-OBS-SST"      # OSTIA L4, 0.05°, daily
