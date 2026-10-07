@@ -30,7 +30,9 @@ Après-midi
 * expliquer ce qu’est les données climato versus interannuelles variabilité  
 * données grillées : ça implique quoi ? ;  interpolation, leurs limites
 
-**Cours 2** : C’est quoi un fichier netcdf et son “anatomie”
+**Cours 2a** : C’est quoi un fichier netcdf et son “anatomie”
+
+**Cours 2b** : Courte intro a l'utilisation de ncview avec le terminal
 
 **TP 1a** : bases de xarray (ouvrir un fichier netCDF, sélectionner, moyenner, cartes)
 
@@ -47,14 +49,14 @@ Après-midi
   * plot sur une zone de leur choix.  
 * exo 2 : même chose pour réanalyse atmo (vent), réanalyse ocean (temp, salt et courant) 
 
+---
+
+**Jour 3 \- Mercredi**  
 **TP 2b / TP 2c** (compléments, placement à décider) :
 
 * TP 2b : biogéochimie (chlorophylle satellite, nitrate et oxygène modèle, zone de minimum d'oxygène)  
 * TP 2c : climatologie vs variabilité interannuelle (31 ans de SST, anomalies, El Niño / La Niña)
 
----
-
-**Jour 3 \- Mercredi**  
 **Cours 3 :** on a vu les données d’observation hier, aujoud’hui modèle
 
 * c’est quoi un modèle numérique d'océan / atmo / climat  
