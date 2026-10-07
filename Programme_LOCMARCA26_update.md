@@ -32,18 +32,25 @@ Après-midi
 
 **Cours 2** : C’est quoi un fichier netcdf et son “anatomie”
 
-**TP 1** : sur les obs : avec des données déjà dispo sur kabre 
+**TP 1a** : bases de xarray (ouvrir un fichier netCDF, sélectionner, moyenner, cartes)
+
+**TP 1b** : sur les obs : avec des données déjà dispo sur kabre 
 
 * Carte 2D-h, section verticale etc…, séries temporelles  
 * Introduction outils NCO / CDO vs. python
 
-**TP 2** : Comment on récupère des données  : copernicus/ecmwf
+**TP 2a** : Comment on récupère des données  : copernicus/ecmwf
 
 * exo 0 :compte copernicus /ecmwf  
 * exo 1 :    
   * récupérer données par SST L4 \+ temperature 3D sur zone costa rica  
   * plot sur une zone de leur choix.  
 * exo 2 : même chose pour réanalyse atmo (vent), réanalyse ocean (temp, salt et courant) 
+
+**TP 2b / TP 2c** (compléments, placement à décider) :
+
+* TP 2b : biogéochimie (chlorophylle satellite, nitrate et oxygène modèle, zone de minimum d'oxygène)  
+* TP 2c : climatologie vs variabilité interannuelle (31 ans de SST, anomalies, El Niño / La Niña)
 
 ---
 
