@@ -14,13 +14,21 @@ git pull
 **Never edit the original notebooks** (for example `Session01/01b_explore_nco_cdo_EN.ipynb`): the trainers may update them during the week, and `git pull` would then fail.
 
 For each notebook, make your own copy, with `_mine` at the end of its name:
-- in the JupyterLab file browser, right-click the notebook → **Duplicate**;
-- rename the copy, e.g. `01b_explore_nco_cdo_EN_mine.ipynb` (right-click → **Rename**);
-- open the `_mine` copy and work only there.
+- in the JupyterLab file browser, right-click the notebook → **Duplicate**: JupyterLab creates a copy named `…-Copy1.ipynb`;
+- rename this copy, e.g. `01b_explore_nco_cdo_EN_mine.ipynb` (right-click → **Rename**);
+- open the `_mine` copy, select the **`psf2026`** kernel (top right), and work only there.
 
-Your `_mine` copies are never touched by `git pull`.
+Your `_mine` copies are never touched by `git pull`. The files you create (figures, netCDF files in the `data_tp…/` folders) are not touched either.
 
-The notebooks of each session, and the order to follow, are listed in [Session01](../Session01/README.md) and [Session02](../Session02/README.md).
+#### 3. Which notebooks, in which order
+
+| Session | Notebooks |
+|---|---|
+| [Session01](../Session01/README.md) | TP1a (xarray basics), then TP1b (observations already on Kabre, NCO/CDO) |
+| [Session02](../Session02/README.md) | TP2a (getting data from Copernicus), TP2b (biogeochemistry), TP2c (climatology vs interannual variability) |
+| [Session03](../Session03/README.md) | TP3 (ocean model outputs) |
+
+Each session folder has its own page with the order, the duration and the data used.
 
 #### If `git pull` fails
 
@@ -28,9 +36,11 @@ If `git pull` says that *your local changes would be overwritten*, you have edit
 
 ```bash
 cd $HOME/script-locmarca
-cp Session01/01b_explore_nco_cdo_EN.ipynb Session01/01b_explore_nco_cdo_EN_mine.ipynb   # keep your work (adapt the name)
-git checkout -- Session01/01b_explore_nco_cdo_EN.ipynb                                   # restore the original
+cp Session01/01b_explore_nco_cdo_EN.ipynb Session01/01b_explore_nco_cdo_EN_mine2.ipynb   # keep your work (adapt the names)
+git checkout -- Session01/01b_explore_nco_cdo_EN.ipynb                                    # restore the original
 git pull
 ```
+
+Use a new name for the copy (here `_mine2`), so that you do not overwrite a `_mine` copy you already have.
 
 If you are not sure, ask a trainer before typing anything.
