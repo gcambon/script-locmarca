@@ -36,11 +36,9 @@ If `git pull` says that *your local changes would be overwritten*, you have edit
 
 ```bash
 cd $HOME/script-locmarca
-cp Session01/01b_explore_nco_cdo_EN.ipynb Session01/01b_explore_nco_cdo_EN_mine2.ipynb   # keep your work (adapt the names)
+cp Session01/01b_explore_nco_cdo_EN.ipynb Session01/01b_explore_nco_cdo_EN_mine.ipynb   # keep your work (adapt the names)
 git checkout -- Session01/01b_explore_nco_cdo_EN.ipynb                                    # restore the original
 git pull
 ```
-
-Use a new name for the copy (here `_mine2`), so that you do not overwrite a `_mine` copy you already have.
 
 If you are not sure, ask a trainer before typing anything.
