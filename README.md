@@ -20,16 +20,18 @@ This repository contains the material used during the LOCMARCA workshop, from 16
 
 | Day | Courses | Hands-on notebooks |
 |---|---|---|
-| Monday | — | TP0: installation (see *Quick start*) |
-| Tuesday | Course 1, Course 2 | [Session01](Session01/): TP1a, TP1b · [Session02](Session02/): TP2a, TP2b, TP2c |
-| Wednesday | Course 3 | TP3 |
-| Thursday | — | TP4: mini-project |
-| Friday | — | Presentations |
+| Monday          | Welcome  | TP0: installation (see *Quick start*) |
+| Tuesday         | Course 1, Course 2  | [Session01](Session01/): TP1a, TP1b — [Session02](Session02/): TP2a |
+| Wednesday       | [Session02](Session02/) : TP2b, TP2c |  Course 3 — [Session03](Session03/): TP3 |
+| Thursday | [Session03](Session03/): TP3                 | TP4: mini-project |
+| Friday | Presentations | - |
 
 <!-- Complementary notebooks, in [Session02](Session02/): TP2b (biogeochemistry) and TP2c (climatology vs interannual variability). -->
 
 ## Courses
 
-Lecture slides are available online [here](https://drive.google.com/drive/folders/1q631u2Uf0dU-dbK6jkZtppacwdYifSWC?usp=sharing).
+Lecture slides are in [Courses](Courses/).
+
+<!-- online [here](https://drive.google.com/drive/folders/1q631u2Uf0dU-dbK6jkZtppacwdYifSWC?usp=sharing). -->
 <!-- 
 PowerPoint versions are available in [Courses/](Courses/). -->
