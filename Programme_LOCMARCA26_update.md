@@ -30,32 +30,24 @@ Après-midi
 * expliquer ce qu’est les données climato versus interannuelles variabilité  
 * données grillées : ça implique quoi ? ;  interpolation, leurs limites
 
-**Cours 2a** : C’est quoi un fichier netcdf et son “anatomie”
+**Cours 2a** : C’est quoi un fichier netcdf et son “anatomie”  
+**Cours 2b** : Courte intro à l'utilisation de ncview avec le terminal
 
-**Cours 2b** : Courte intro a l'utilisation de ncview avec le terminal
+**TP 1a** : bases de xarray (ouvrir un fichier netCDF, sélectionner, moyenner, cartes)  
+**TP 1b** : sur les obs : avec des données déjà dispo sur kabre :  Carte 2D-h, section verticale etc…, séries temporelles ;  Introduction outils NCO / CDO vs. python
 
-**TP 1a** : bases de xarray (ouvrir un fichier netCDF, sélectionner, moyenner, cartes)
+**TP 2a** : Comment on récupère des données : copernicus/ecmwf
 
-**TP 1b** : sur les obs : avec des données déjà dispo sur kabre 
-
-* Carte 2D-h, section verticale etc…, séries temporelles  
-* Introduction outils NCO / CDO vs. python
-
-**TP 2a** : Comment on récupère des données  : copernicus/ecmwf
-
-* exo 0 :compte copernicus /ecmwf  
-* exo 1 :    
-  * récupérer données par SST L4 \+ temperature 3D sur zone costa rica  
-  * plot sur une zone de leur choix.  
-* exo 2 : même chose pour réanalyse atmo (vent), réanalyse ocean (temp, salt et courant) 
+* exo 0 : compte copernicus /ecmwf  
+* exo 1 : récupérer données par SST L4 \+ temperature 3D sur zone costa rica , plot sur une zone de leur choix.  
+* exo 2 : même chose pour réanalyse atmo (vent), réanalyse ocean (temp, salt et courant)
 
 ---
 
-**Jour 3 \- Mercredi**  
-**TP 2b / TP 2c** (compléments, placement à décider) :
+**Jour 3 \- Mercredi**
 
-* TP 2b : biogéochimie (chlorophylle satellite, nitrate et oxygène modèle, zone de minimum d'oxygène)  
-* TP 2c : climatologie vs variabilité interannuelle (31 ans de SST, anomalies, El Niño / La Niña)
+**TP 2b** : biogéochimie (chlorophylle satellite, nitrate et oxygène modèle, zone de minimum d'oxygène)  
+**TP 2c** : climatologie vs variabilité interannuelle (31 ans de SST, anomalies, El Niño / La Niña)
 
 **Cours 3 :** on a vu les données d’observation hier, aujoud’hui modèle
 
@@ -76,6 +68,7 @@ Après-midi
 ---
 
 **Jour 4 \- Jeudi \-  Objectif mini-projet :** mini-projet simple sur une zone choisie de comparaison modèle-données  
+**TP3** : suite  
 **TP 4 :**
 
 * Définir région d'intérêt  
@@ -87,11 +80,6 @@ Après-midi
 
 **Jour 5 \- Vendredi**
 
-* Finish  
-* Tour de table \- présentation en 5 slides   
-* Restitution / récupération éventuelle des données
-
-
-Après-midi :  
-
-* ???
+* Finish : Tour de table \- présentation en 5 slides   
+* Restitution / récupération éventuelle des données  
+* Fin à 12h
