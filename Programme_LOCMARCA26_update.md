@@ -38,7 +38,7 @@ Après-midi
 
 **TP 2a** : Comment on récupère des données : copernicus/ecmwf
 
-* exo 0 : compte copernicus /ecmwf  
+* exo 0 : compte copernicus
 * exo 1 : récupérer données par SST L4 \+ temperature 3D sur zone costa rica , plot sur une zone de leur choix.  
 * exo 2 : même chose pour réanalyse atmo (vent), réanalyse ocean (temp, salt et courant)
 

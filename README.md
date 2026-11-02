@@ -18,7 +18,7 @@ This repository contains the material used during the LOCMARCA workshop, from 16
 
 ## The week
 
-| Day | Courses | Hands-on notebooks |
+| Day | Morning | Afternoon |
 |---|---|---|
 | Monday          | Welcome  | TP0: installation (see *Quick start*) |
 | Tuesday         | Course 1, Course 2  | [Session01](Session01/): TP1a, TP1b — [Session02](Session02/): TP2a |
