@@ -2,9 +2,9 @@
 
 This repository contains the material used during the LOCMARCA workshop, from 16 to 20 November 2026, at UNA (Heredia, Costa Rica).
 
-## Program: [here](https://docs.google.com/document/d/1cB4yNvkBNWdxjOYhjzKJLcO5nfagvkhRv2tHxbG7s0o/edit?tab=t.0)
+## Program: [here](Programme_LOCMARCA26_update.md)
 
-<!-- ## [Program](Programme_LOCMARCA26_update.md) -->
+<!-- Previous version (Google Doc): https://docs.google.com/document/d/1cB4yNvkBNWdxjOYhjzKJLcO5nfagvkhRv2tHxbG7s0o/edit?tab=t.0 -->
 
 ## Quick start
 
@@ -26,7 +26,7 @@ This repository contains the material used during the LOCMARCA workshop, from 16
 | Thursday | [Session03](Session03/): TP3                 | TP4: mini-project |
 | Friday | Presentations | - |
 
-<!-- Complementary notebooks, in [Session02](Session02/): TP2b (biogeochemistry) and TP2c (climatology vs interannual variability). -->
+<!-- Complementary notebooks, in [Session02](Session02/): TP2b (climatology vs interannual variability) and TP2c (biogeochemistry). -->
 
 ## Courses
 

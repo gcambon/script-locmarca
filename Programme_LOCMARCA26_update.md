@@ -1,85 +1,88 @@
-# Programme préliminaire LOCMARCA 26
+# LOCMARCA 26 — Programme
 
-#### [https\://github.com/gcambon/script-locmarca](https://github.com/gcambon/script-locmarca) 
+UNA, Heredia (Costa Rica), 16–20 November 2026 · Material: [https://github.com/gcambon/script-locmarca](https://github.com/gcambon/script-locmarca)
 
----
-
-**Jour 1 Lundi**  
-Matin
-
-* Accueil \- présentation des participants (1 slide / person; pdf à envoyer avant)  
-* Présentation du programme cours-tp  
-* Infrastructure de travail \- kabre et jupyterhub ondemand (=\> gérer ouverture comptes Kabré)
-
-
-Après-midi  
-**TP 0  (avec README du github) : installation**
-
-* connexion Kabre \+ jupyterhub  
-* installation de MobaXterm pour les utilisateurs sous Windows \+ connexion (ssh \-X …)  
-* environnement python et module
+Every day: 9:00–12:00 and 14:00–17:00 (except Monday morning and Friday afternoon).
+For each notebook, work in your own `_mine` copy: see [Hands-on sessions](docs/handson_session.md).
 
 ---
 
-**Jour 2 \- Mardi**   
-**Cours 1** : Présentations des produits d’observation : In situ versus satellites
+## Day 1 — Monday
 
-* ocean / atmo / bgc   
-* 2D versus 3D  
-* couverture spatio-temporelle, limites et avantages  
-* expliquer ce qu’est les données climato versus interannuelles variabilité  
-* données grillées : ça implique quoi ? ;  interpolation, leurs limites
+**Morning**
+- Welcome and introduction of the participants (1 slide per person, PDF to send before the workshop)
+- Presentation of the programme (courses and hands-on sessions)
+- Working infrastructure: the Kabre cluster and JupyterHub OnDemand (Kabre accounts)
 
-**Cours 2a** : C’est quoi un fichier netcdf et son “anatomie”  
-**Cours 2b** : Courte intro à l'utilisation de ncview avec le terminal
-
-**TP 1a** : bases de xarray (ouvrir un fichier netCDF, sélectionner, moyenner, cartes)  
-**TP 1b** : sur les obs : avec des données déjà dispo sur kabre :  Carte 2D-h, section verticale etc…, séries temporelles ;  Introduction outils NCO / CDO vs. python
-
-**TP 2a** : Comment on récupère des données : copernicus/ecmwf
-
-* exo 0 : compte copernicus
-* exo 1 : récupérer données par SST L4 \+ temperature 3D sur zone costa rica , plot sur une zone de leur choix.  
-* exo 2 : même chose pour réanalyse atmo (vent), réanalyse ocean (temp, salt et courant)
+**Afternoon — TP0: installation**
+1. [Connect to JupyterLab on Kabre](docs/connexion_jupyterhub.md) (and install MobaXterm for Windows users, for `ssh -X`)
+2. [Download the course material with git](docs/git_tp_course.md)
+3. [Set up your bash environment](docs/bash_env.md)
+4. [Select the Python environment](docs/python_env.md) (`psf2026` kernel)
 
 ---
 
-**Jour 3 \- Mercredi**
+## Day 2 — Tuesday
 
-**TP 2b** : biogéochimie (chlorophylle satellite, nitrate et oxygène modèle, zone de minimum d'oxygène)  
-**TP 2c** : climatologie vs variabilité interannuelle (31 ans de SST, anomalies, El Niño / La Niña)
+**Course 1 — Observation products: in situ vs satellite** ([PDF](Courses/01_course_observation_products.pdf))
+- ocean / atmosphere / biogeochemistry
+- 2D vs 3D
+- spatial and temporal coverage, strengths and limits
+- climatology vs interannual variability
+- gridded data: what it implies (interpolation and its limits)
 
-**Cours 3 :** on a vu les données d’observation hier, aujoud’hui modèle
+**Course 2a — Anatomy of a netCDF file** ([PDF](Courses/02a_course_anatomy_netcdf_file.pdf))
 
-* c’est quoi un modèle numérique d'océan / atmo / climat  
-* *Principe & grandes idées à avoir :*   
-* *Résolution spatiale / intégration / processus / type de grille*  
-* *A quoi ça sert (étude de processus)*  
-* *global vs régional, scénarios, limites*  
-* *Présentation succincte modèles climats : lien possible https\://esgf-node.ipsl.upmc.fr/projects/esgf-ipsl/*
+**Course 2b — A short introduction to ncview from the terminal** ([PDF](Courses/02b_course_ncview_Kabre_MobaXterm.pdf))
 
-**TP 3** : visu et manipulation sortie de **modèle océan**
+**[Session 1](Session01/README.md)**
+- **TP1a** — [xarray basics](Session01/01a_basics_xarray_EN.ipynb) (~1h30–2h): open a netCDF file, select, average, maps with coastlines, several maps side by side.
+- **TP1b** — [Observations already on Kabre](Session01/01b_explore_nco_cdo_EN.ipynb) (~2h30): mean and variability maps, time series (Pacific vs Caribbean), a vertical section of the WOA climatology, then the command-line tools NCO and CDO, and a cross-check of the three methods.
 
-* lecture/ouverture/carte avec données dispo sur cluster avec CROCO et NEMO GLOBAL 1° avec BGC  
-* données 2D SST / SLA / Vents /  Courants de surface.   
-* données 3D : température, salinité, Courant  
-  * carte et section verticale
-
----
-
-**Jour 4 \- Jeudi \-  Objectif mini-projet :** mini-projet simple sur une zone choisie de comparaison modèle-données  
-**TP3** : suite  
-**TP 4 :**
-
-* Définir région d'intérêt  
-* Récupération données in-situ / sat / réanalyse océan et atmo / sorties modèles océan   
-* Validation et comparaison modèles/observations  
-* Cycle saisonnier et variabilité interannuelle pour ces données 
+**[Session 2](Session02/README.md)**
+- **TP2a** — [Getting the data yourself: Copernicus Marine](Session02/02a_Copernicus_EN.ipynb) (~2h30)
+  - Exercise 0: Copernicus Marine account and login
+  - Exercise 1: satellite SST L4 (OSTIA) and 3D temperature (ARMOR3D) over Costa Rica, with a cross-check of the two
+  - Exercise 2: ocean reanalysis (GLORYS12: temperature, salinity, currents) and wind (the Papagayo jet)
+  - 🚀 Advanced: SST over an area of your choice
 
 ---
 
-**Jour 5 \- Vendredi**
+## Day 3 — Wednesday
 
-* Finish : Tour de table \- présentation en 5 slides   
-* Restitution / récupération éventuelle des données  
-* Fin à 12h
+**[Session 2](Session02/README.md)** (continued)
+- **TP2b** — [Climatology vs interannual variability](Session02/02b_interannual_EN.ipynb) (~1h30): 31 years of SST, monthly climatology, anomalies, El Niño and La Niña.
+- **TP2c** — [Biogeochemistry](Session02/02c_bgc_EN.ipynb) (~1h15): satellite chlorophyll, nitrate and oxygen from a model (PISCES), the oxygen minimum zone.
+
+**Course 3 — Numerical models** (*slides coming soon*): yesterday the observations, today the models.
+- What is a numerical model of the ocean, the atmosphere, the climate?
+- Key ideas: spatial resolution, time integration, processes, grid types
+- What models are used for (process studies)
+- Global vs regional, scenarios, limits
+- A short presentation of climate models (e.g. <https://esgf-node.ipsl.upmc.fr/projects/esgf-ipsl/>)
+
+**[Session 3](Session03/README.md)**
+- **TP3** — [Ocean model outputs: the CROCO regional model](Session03/03_model_EN.ipynb) (~3h, continued on Thursday)
+  - what is different in a model output file (grid, terrain-following levels, time, fill values)
+  - 2D fields: sea surface temperature, sea level, surface currents
+  - 3D fields: depth of the model levels, a vertical section across the Costa Rica Dome, a horizontal slice at 100 m
+  - model vs observations vs reanalysis: CROCO vs OSTIA, CROCO vs GLORYS12
+
+---
+
+## Day 4 — Thursday — Goal: a mini-project
+
+**Morning — TP3** (continued)
+
+**Afternoon — TP4: mini-project** — a simple model–data comparison over an area of your choice
+- Choose a region of interest
+- Get the data: in situ / satellite / ocean and atmosphere reanalyses / ocean model outputs (TP1, TP2, TP3)
+- Validation: compare models and observations
+- Seasonal cycle and interannual variability of these data (TP2b)
+
+---
+
+## Day 5 — Friday
+
+- Round table: each participant presents their mini-project in 5 slides
+- Wrap-up, and copy of the data you want to keep
