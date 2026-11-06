@@ -89,9 +89,12 @@ def at_depth(da, z, depth):
                           vectorize=True)                           # repeat for every grid point
 
 
-def base_map(ax, title, extent=None):
-    """Land, coastlines and grid on a cartopy map (whole model domain by default)."""
-    ax.add_feature(cfeature.LAND.with_scale("50m"), facecolor="#d4c9a8", zorder=2)
+def base_map(ax, title, extent=None, land=True):
+    """Land, coastlines and grid on a cartopy map (whole model domain by default).
+
+    land=False draws the coastline only, to see the model cells that are under the land."""
+    if land:
+        ax.add_feature(cfeature.LAND.with_scale("50m"), facecolor="#d4c9a8", zorder=2)
     ax.add_feature(cfeature.COASTLINE.with_scale("50m"), linewidth=0.7, zorder=3)
     ax.gridlines(draw_labels=True, linewidth=0.3, linestyle="--", color="gray")
     if extent is not None:

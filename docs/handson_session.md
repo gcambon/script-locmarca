@@ -26,7 +26,7 @@ Your `_mine` copies are never touched by `git pull`. The files you create (figur
 |---|---|
 | [Session01](../Session01/README.md) | TP1a (xarray basics), then TP1b (observations already on Kabre, NCO/CDO) |
 | [Session02](../Session02/README.md) | TP2a (getting data from Copernicus), TP2b (climatology vs interannual variability), TP2c (biogeochemistry) |
-| [Session03](../Session03/README.md) | TP3 (ocean model outputs) |
+| [Session03](../Session03/README.md) | TP3a (global model NEMO), TP3b (regional model CROCO) |
 
 Each session folder has its own page with the order, the duration and the data used.
 
