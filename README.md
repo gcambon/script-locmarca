@@ -1,6 +1,12 @@
 # Material for the LOCMARCA workshop
 
-This repository contains the material used during the LOCMARCA workshop, from 16 to 20 November 2026, at UNA (Heredia, Costa Rica).
+<p>
+  <img src="images/logos/logo_ird.png" alt="IRD — Institut de Recherche pour le Développement" height="80">
+  &nbsp;&nbsp;&nbsp;
+  <img src="images/logos/logo_una.png" alt="Universidad Nacional, Costa Rica (UNA)" height="80">
+</p>
+
+This repository contains the material used during the LOCMARCA workshop, from 16 to 20 November 2026.
 
 ## Program: [here](Programme_LOCMARCA26_update.md)
 

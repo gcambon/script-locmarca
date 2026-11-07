@@ -1,6 +1,6 @@
 # LOCMARCA 26 — Programme
 
-UNA, Heredia (Costa Rica), 16–20 November 2026 · Material: [https://github.com/gcambon/script-locmarca](https://github.com/gcambon/script-locmarca)
+16–20 November 2026 · Material: [https://github.com/gcambon/script-locmarca](https://github.com/gcambon/script-locmarca)
 
 Every day: 9:00–12:00 and 14:00–17:00 (except Monday morning and Friday afternoon).
 For each notebook, work in your own `_mine` copy: see [Hands-on sessions](docs/handson_session.md).
