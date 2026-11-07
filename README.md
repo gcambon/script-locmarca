@@ -1,9 +1,9 @@
 # Material for the LOCMARCA workshop
 
 <p>
-  <img src="images/logos/logo_ird.png" alt="IRD — Institut de Recherche pour le Développement" height="80">
+  <img src="images/logos/logo_ird.png" alt="IRD — Institut de Recherche pour le Développement" height="140">
   &nbsp;&nbsp;&nbsp;
-  <img src="images/logos/logo_una.png" alt="Universidad Nacional, Costa Rica (UNA)" height="80">
+  <img src="images/logos/logo_una.png" alt="Universidad Nacional, Costa Rica (UNA)" height="140">
 </p>
 
 This repository contains the material used during the LOCMARCA workshop, from 16 to 20 November 2026.
