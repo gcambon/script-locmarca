@@ -1,0 +1,42 @@
+# Python environment of the LOCMARCA workshop (same packages as the psf2026 kernel on Kabre).
+# macOS, Linux, and Windows through WSL. On plain Windows, use environment_windows.yml.
+# Install guide: docs/install_python_home.md
+#
+#   mamba env create -f environment.yml
+#   mamba activate psf2026
+name: psf2026
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  # data analysis
+  - numpy
+  - pandas
+  - scipy
+  - xarray
+  - cf-xarray
+  - cftime
+  - python-dateutil
+  - xgcm
+  - regionmask
+  # netCDF / HDF5 files
+  - netcdf4
+  - h5netcdf
+  - h5py
+  - netcdf-fortran
+  # maps and colours
+  - matplotlib
+  - cartopy
+  - cmocean
+  # data download
+  - copernicusmarine
+  - cdsapi
+  # Jupyter
+  - jupyterlab
+  - jupyter
+  - ipykernel
+  - ipython
+  # command-line tools
+  - nco
+  - cdo
+  - ncview

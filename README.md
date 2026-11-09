@@ -22,6 +22,8 @@ This repository contains the material used during the LOCMARCA workshop, from 16
 
 **Every following connection**: [connect to JupyterLab](docs/connexion_jupyterhub.md), then follow [Hands-on sessions](docs/handson_session.md) (update the material, work in your own copy of each notebook).
 
+**After the workshop**: [install the same Python environment on your own computer](docs/install_python_home.md) (Windows, macOS, Linux).
+
 ## The week
 
 | Day | Morning | Afternoon |

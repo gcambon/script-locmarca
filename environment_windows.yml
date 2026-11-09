@@ -1,0 +1,40 @@
+# Python environment of the LOCMARCA workshop, for plain Windows (no WSL).
+# Same as environment.yml, without cdo and ncview, which do not exist for Windows.
+# Install guide: docs/install_python_home.md
+#
+#   mamba env create -f environment_windows.yml
+#   mamba activate psf2026
+name: psf2026
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  # data analysis
+  - numpy
+  - pandas
+  - scipy
+  - xarray
+  - cf-xarray
+  - cftime
+  - python-dateutil
+  - xgcm
+  - regionmask
+  # netCDF / HDF5 files
+  - netcdf4
+  - h5netcdf
+  - h5py
+  - netcdf-fortran
+  # maps and colours
+  - matplotlib
+  - cartopy
+  - cmocean
+  # data download
+  - copernicusmarine
+  - cdsapi
+  # Jupyter
+  - jupyterlab
+  - jupyter
+  - ipykernel
+  - ipython
+  # command-line tools (cdo and ncview: not available on Windows)
+  - nco

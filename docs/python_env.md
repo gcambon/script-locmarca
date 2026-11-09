@@ -9,3 +9,5 @@ To access all the Python packages and programs of the workshop, you use the **`p
 In a Jupyter notebook, select the **`psf2026`** kernel (top right of the notebook). Check it **every time** you open a notebook.
 
 ![Selecting the psf2026 kernel](../images/images_connectkabre/10-kernelload.png)
+
+To use the same environment on your own computer after the workshop, see [Install the Python environment at home](install_python_home.md).
