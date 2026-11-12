@@ -16,6 +16,6 @@ For each notebook, first make your own `_mine` copy (see [Hands-on sessions](../
 
 **Keep your `_mine` copies in this folder**: the three notebooks import their helper functions from `tp2_utils.py`, which must stay next to them.
 
-**Your files** go to the folder `data_tp2/`, next to the notebooks. **Keep it**: you will reuse these files in the mini-project on Thursday.
+**Your files** go to the folder `data_tp2/`, next to the notebooks. **Keep it**, and keep `tp2_utils.py`: on Thursday, the mini-project (Session 4) downloads the data of your own region in the same way, with the same helper functions.
 
 **Before**: Course 0a (anatomy of a netCDF file), Course 1 (observation products) and TP1.

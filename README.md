@@ -31,7 +31,7 @@ This repository contains the material used during the LOCMARCA workshop, from 16
 | Monday          | Welcome  | TP0: installation (see *Quick start*) — Course 0a (netCDF anatomy), Course 0b (ncview) |
 | Tuesday         | Course 1  | [Session01](Session01/): TP1a, TP1b — [Session02](Session02/): TP2a |
 | Wednesday       | [Session02](Session02/): TP2b, TP2c |  Course 2 |
-| Thursday | [Session03](Session03/): TP3a (NEMO), TP3b (CROCO) | Session 4: mini-project |
+| Thursday | [Session03](Session03/): TP3a (NEMO), TP3b (CROCO) | [Session04](Session04/): mini-project — one region, one process (satellites vs GLORYS) |
 | Friday | Presentations, wrap-up | - |
 
 <!-- Complementary notebooks, in [Session02](Session02/): TP2b (climatology vs interannual variability) and TP2c (biogeochemistry). -->

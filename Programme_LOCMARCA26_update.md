@@ -72,8 +72,10 @@ For each notebook, work in your own `_mine` copy: see [Hands-on sessions](docs/h
   - a vertical section across the Costa Rica Dome, a map at 100 m by vertical interpolation -->
 
 **Afternoon** 
-- **Session 4** : mini-project — a simple model–data comparison over an area of your choice
-<!-- - Choose a region of interest
+- **[Session 4](Session04/README.md)**: mini-project — **One region, one process: what satellites see, and what a reanalysis does with it**
+  - [Mini-project notebook](Session04/04_miniproject_EN.ipynb): an example of study area, the upwelling of the Gulf of Panama — look at it with satellite observations of the surface (wind, SST, currents, chlorophyll), then compare with the GLORYS12 reanalysis; one year per pair, to compare the years on Friday
+<!-- Previous plan:
+- Choose a region of interest
 - Get the data: in situ / satellite / ocean and atmosphere reanalyses / ocean model outputs (TP1, TP2, TP3)
 - Validation: compare models and observations
 - Seasonal cycle and interannual variability of these data (TP2b) -->
@@ -81,5 +83,5 @@ For each notebook, work in your own `_mine` copy: see [Hands-on sessions](docs/h
 ---
 ## Day 5 — Friday
 
-- Round table: each participant presents their mini-project in 5 slides
+- Round table: each participant (or pair) presents their mini-project in 5 slides
 - Wrap-up, and copy of the data you want to keep
