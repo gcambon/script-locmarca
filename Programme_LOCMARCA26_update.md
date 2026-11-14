@@ -2,16 +2,14 @@
 
 16–20 November 2026 · Material: [https://github.com/gcambon/script-locmarca](https://github.com/gcambon/script-locmarca)
 
-Every day: 9:00–12:00 and 14:00–17:00 (except Monday morning and Friday afternoon).
+Every day: 9:00–12:00 and 14:00–17:00.
 For each notebook, work in your own `_mine` copy: see [Hands-on sessions](docs/handson_session.md).
 
 ## Day 1 — Monday
 **Morning**
 - Welcome and introduction of the participants (1 slide per person, PDF to send before the workshop)
-- Presentation of the programme (courses and hands-on sessions)
-- Working infrastructure: the Kabre cluster and JupyterHub OnDemand (Kabre accounts)
-
-**Afternoon**
+<!-- - Presentation of the programme (courses and hands-on sessions)
+- Working infrastructure: the Kabre cluster and JupyterHub OnDemand (Kabre accounts) -->
 - TP0: installation
   - [Connect to JupyterLab on Kabre](docs/connexion_jupyterhub.md) (and install MobaXterm for Windows users, for `ssh -X`)
   - [Download the course material with git](docs/git_tp_course.md)
@@ -22,9 +20,7 @@ For each notebook, work in your own `_mine` copy: see [Hands-on sessions](docs/h
 
 - **Course 0b — A short introduction to ncview from the terminal** ([PDF](Courses/00b_course_ncview_Kabre_MobaXterm.pdf))
 
-
-## Day 2 — Tuesday
-**Morning**
+**Afternoon**
 - **Course 1 — Observation products: in situ vs satellite**  ([PDF](Courses/01_course_observation_products.pdf))
   <!-- - ocean / atmosphere / biogeochemistry  
   - 2D vs 3D
@@ -32,7 +28,8 @@ For each notebook, work in your own `_mine` copy: see [Hands-on sessions](docs/h
   - climatology vs interannual variability
   - gridded data: what it implies (interpolation and its limits) -->
 
-**Afternoon**
+## Day 2 — Tuesday
+**Morning**
 - **[Session 1](Session01/README.md)**
   - **TP1a** — [xarray basics](Session01/01a_basics_xarray_EN.ipynb): open a netCDF file, select, average, maps with coastlines, several maps side by side.
   - **TP1b** — [Observations already on Kabre](Session01/01b_explore_nco_cdo_EN.ipynb): mean and variability maps, time series (Pacific vs Caribbean), a vertical section of the WOA climatology, then the command-line tools NCO and CDO, and a cross-check of the three methods.
@@ -43,14 +40,16 @@ For each notebook, work in your own `_mine` copy: see [Hands-on sessions](docs/h
   - Exercise 1: satellite SST L4 (OSTIA) and 3D temperature (ARMOR3D) over Costa Rica, with a cross-check of the two
   - Exercise 2: ocean reanalysis (GLORYS12: temperature, salinity, currents) and wind (the Papagayo jet)
   - 🚀 Advanced: SST over an area of your choice -->
-
-## Day 3 — Wednesday
-**Morning**
+  
+**Afternoon**
 - **[Session 2](Session02/README.md)** (continued)
   - **TP2b** — [Climatology vs interannual variability](Session02/02b_interannual_EN.ipynb): 31 years of SST, monthly climatology, anomalies, El Niño and La Niña.
   - **TP2c** — [Biogeochemistry](Session02/02c_bgc_EN.ipynb): satellite chlorophyll, nitrate and oxygen from a model (PISCES), the oxygen minimum zone.
 
-**Afternoon**
+
+## Day 3 — Wednesday
+
+**Morning**
   - **Course 2 — Numerical models** ([PDF](Courses/02_course_numerical_models.pdf)): yesterday the observations, today the models.
 <!-- - What is a numerical model of the ocean, the atmosphere, the climate?
 - Key ideas: spatial resolution, time integration, processes, grid types
@@ -58,8 +57,7 @@ For each notebook, work in your own `_mine` copy: see [Hands-on sessions](docs/h
 - Global vs regional, scenarios, limits
 - A short presentation of climate models (e.g. <https://esgf-node.ipsl.upmc.fr/projects/esgf-ipsl/>) -->
 
-## Day 4 — Thursday — Goal: a mini-project
-**Morning**
+**Afternoon**
 - **[Session 3](Session03/README.md)**: ocean model outputs
   - **TP3a** — [A global ocean model: NEMO at 1°](Session03/03a_nemo_EN.ipynb)
   <!-- - a global model file: longitudes from 0 to 360, a model calendar, z-levels
@@ -71,9 +69,11 @@ For each notebook, work in your own `_mine` copy: see [Hands-on sessions](docs/h
   - sigma levels vs z-levels: CROCO and NEMO along the same section
   - a vertical section across the Costa Rica Dome, a map at 100 m by vertical interpolation -->
 
-**Afternoon** 
+## Day 4 — Thursday — Goal: a mini-project
+<!-- **Morning**
+**Afternoon**  -->
 - **[Session 4](Session04/README.md)**: mini-project — **One region, one process: what satellites see, and what a reanalysis does with it**
-  - [Mini-project notebook](Session04/04_miniproject_EN.ipynb): an example of study area, the upwelling of the Gulf of Panama — look at it with satellite observations of the surface (wind, SST, currents, chlorophyll), then compare with the GLORYS12 reanalysis; one year per pair, to compare the years on Friday
+  <!-- - [Mini-project notebook](Session04/04_miniproject_EN.ipynb): an example of study area, the upwelling of the Gulf of Panama — look at it with satellite observations of the surface (wind, SST, currents, chlorophyll), then compare with the GLORYS12 reanalysis; one year per pair, to compare the years on Friday -->
 <!-- Previous plan:
 - Choose a region of interest
 - Get the data: in situ / satellite / ocean and atmosphere reanalyses / ocean model outputs (TP1, TP2, TP3)
