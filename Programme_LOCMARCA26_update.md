@@ -26,6 +26,7 @@ For each notebook, work in your own `_mine` copy: see [Hands-on sessions](docs/h
 
 ## Day 2 — Tuesday
 <!-- **Morning** -->
+- **Session01 / TP1b** — [Observations already on Kabre](Session01/01b_explore_nco_cdo_EN.ipynb): mean and variability maps, time series (Pacific vs Caribbean), a vertical section of the WOA climatology, then the command-line tools NCO and CDO, and a cross-check of the three methods.
 - **Session02 / TP2a** — [Getting the data yourself: Copernicus Marine](Session02/02a_Copernicus_EN.ipynb): Create your Copernicus Marine account, then download and plot satellite SST, 3D temperature (observations and ocean reanalysis) and wind
 <!-- **Afternoon** -->
 - **Session02 / TP2b** — [Climatology vs interannual variability](Session02/02b_interannual_EN.ipynb): 31 years of SST, monthly climatology, anomalies, El Niño and La Niña.
