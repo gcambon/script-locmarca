@@ -30,7 +30,7 @@ This repository contains the material used during the LOCMARCA workshop, from 16
 |---|---|
 | Monday    | Welcome — TP0: installation (see *Quick start*) — Course 0a (netCDF anatomy), Course 0b (ncview) — Course 1 (observation products) - [Session01](Session01/): TP1a |
 | Tuesday   | [Session01](Session01/): TP1b — [Session02](Session02/): TP2a, TP2b, TP2c |
-| Wednesday | Course 2 (numerical models) — [Session03](Session03/): TP3a (NEMO), TP3b (CROCO) |
+| Wednesday | Course 2 (ocean numerical models) — [Session03](Session03/): TP3a (NEMO), TP3b (CROCO) |
 | Thursday  | [Session04](Session04/): mini-project — one region, one process (satellites vs GLORYS) |
 | Friday    | Mini-project presentations, wrap-up |
 
