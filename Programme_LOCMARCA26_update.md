@@ -21,7 +21,8 @@ For each notebook, work in your own `_mine` copy: see [Hands-on sessions](docs/h
 - **Course 0b — A short introduction to ncview from the terminal** ([PDF](Courses/00b_course_ncview_Kabre_MobaXterm.pdf))
 
 **Afternoon**
-- **Course 1 — Observation products: in situ vs satellite**  ([PDF](Courses/01_course_observation_products.pdf))
+- **Course 1 — Observation products: in situ vs satellite**  ([PDF](Courses/01_course_observation_products.pdf))  
+- **TP1a** — [xarray basics](Session01/01a_basics_xarray_EN.ipynb): open a netCDF file, select, average, maps with coastlines, several maps side by side.
   <!-- - ocean / atmosphere / biogeochemistry  
   - 2D vs 3D
   - spatial and temporal coverage, strengths and limits
@@ -31,7 +32,6 @@ For each notebook, work in your own `_mine` copy: see [Hands-on sessions](docs/h
 ## Day 2 — Tuesday
 **Morning**
 - **[Session 1](Session01/README.md)**
-  - **TP1a** — [xarray basics](Session01/01a_basics_xarray_EN.ipynb): open a netCDF file, select, average, maps with coastlines, several maps side by side.
   - **TP1b** — [Observations already on Kabre](Session01/01b_explore_nco_cdo_EN.ipynb): mean and variability maps, time series (Pacific vs Caribbean), a vertical section of the WOA climatology, then the command-line tools NCO and CDO, and a cross-check of the three methods.
 
 - **[Session 2](Session02/README.md)**

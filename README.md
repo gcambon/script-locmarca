@@ -26,20 +26,15 @@ This repository contains the material used during the LOCMARCA workshop, from 16
 
 ## The week
 
-| Day | Morning | Afternoon |
-|---|---|---|
-| Monday    | Welcome — TP0: installation (see *Quick start*) — Course 0a (netCDF anatomy), Course 0b (ncview) | Course 1 (observation products) |
-| Tuesday   | [Session01](Session01/): TP1a, TP1b — [Session02](Session02/): TP2a | [Session02](Session02/): TP2b, TP2c |
-| Wednesday | Course 2 (numerical models) | [Session03](Session03/): TP3a (NEMO), TP3b (CROCO) |
-| Thursday  | [Session04](Session04/): mini-project — one region, one process (satellites vs GLORYS) | [Session04](Session04/): mini-project (continued) |
-| Friday    | Mini-project presentations, wrap-up | - |
+| Day | Program |
+|---|---|
+| Monday    | Welcome — TP0: installation (see *Quick start*) — Course 0a (netCDF anatomy), Course 0b (ncview) — Course 1 (observation products) |
+| Tuesday   | [Session01](Session01/): TP1a, TP1b — [Session02](Session02/): TP2a, TP2b, TP2c |
+| Wednesday | Course 2 (numerical models) — [Session03](Session03/): TP3a (NEMO), TP3b (CROCO) |
+| Thursday  | [Session04](Session04/): mini-project — one region, one process (satellites vs GLORYS) |
+| Friday    | Mini-project presentations, wrap-up |
 
-<!-- Complementary notebooks, in [Session02](Session02/): TP2b (climatology vs interannual variability) and TP2c (biogeochemistry). -->
 
 ## Courses
 
 Lecture slides are in [Courses](Courses/).
-
-<!-- online [here](https://drive.google.com/drive/folders/1q631u2Uf0dU-dbK6jkZtppacwdYifSWC?usp=sharing). -->
-<!-- 
-PowerPoint versions are available in [Courses/](Courses/). -->
