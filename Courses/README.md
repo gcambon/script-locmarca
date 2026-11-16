@@ -1,6 +1,6 @@
 # Courses for the LOCMARCA 2026 workshop
 
-Lecture slides, online and as PDF:
+Lecture slides as PDF:
 
 - Course 0a: Anatomy of a netCDF file : - [PDF](00a_course_anatomy_netcdf_file.pdf)
 - Course 0b: Using ncview on Kabre with MobaXterm :  - [PDF](00b_course_ncview_Kabre_MobaXterm.pdf)
