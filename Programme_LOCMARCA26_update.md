@@ -1,5 +1,7 @@
 # LOCMARCA 26 — Programme
 
+**[MEMO_LOCMARCA](https://docs.google.com/presentation/d/10F9j7Rs2w9Qow3FKAotAXs_TwVafaS9YMexGHde1mmg/edit?usp=sharing)**
+
 16–20 November 2026 · Material: [https://github.com/gcambon/script-locmarca](https://github.com/gcambon/script-locmarca)
 
 Every day: 9:00–12:00 and 14:00–17:00.
