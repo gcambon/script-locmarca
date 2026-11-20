@@ -90,6 +90,14 @@ mamba activate psf2026
 
 The start of the prompt changes from `(base)` to `(psf2026)`.
 
+Then **register** the environment as a Jupyter kernel. Do this **only once**, with the environment activated:
+
+```bash
+python -m ipykernel install --user --name=psf2026 --display-name="psf2026"
+```
+
+The kernel **psf2026** now appears in the Jupyter kernel list (*Kernel → Change kernel*).
+
 #### 4. Check that it works
 
 ```bash
